@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TransactionsList from "./TransactionsList";
 import Search from "./Search"; 
 import AddTransactionForm from "./AddTransactionForm"; 
-import transactions from "./Data"; 
+import transactions from "./db.json"; 
 
 function AccountContainer() {
   // Define state for filtered transactions, starting with all transactions
