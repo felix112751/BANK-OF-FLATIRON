@@ -3,6 +3,7 @@ import Transaction from "./Transaction";
 import "./TransactionList.css"; 
 
 function TransactionsList({ transactions }) {
+  console.log(transactions);
   // Map each transaction to a <Transaction> component
   const list = transactions.map((item) => {
     return (
