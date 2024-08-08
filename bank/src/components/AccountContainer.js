@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import TransactionsList from "./TransactionsList";
-import Search from "./Search"; 
-import AddTransactionForm from "./AddTransactionForm"; 
 import transactions from "./Data"; 
+import AddTransactionForm from "./AddTransactionForm";
+import Search from "./Search";
+import TransactionsList from "./TransactionList";
 
 function AccountContainer() {
   // Define state for filtered transactions, starting with all transactions
